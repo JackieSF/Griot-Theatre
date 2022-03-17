@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0;
+    background-color: black;
+    margin-bottom: auto;
+    justify-content: center;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-item .nav-link{
+    color:white;
+    padding-left: 20px;
+    display: flex;
+    justify-content:right;
+}
+
+
+.heading-content{
+    position:absolute;
+    top:40%;
+    width:100%;
+    max-width: 100%;
+}
+
+.heading-content h1{
+    font-size: 150px;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: lightgray;
+    border: 1x solid lightgray;
+    outline:auto;
+    margin-bottom: 3%;
+   width: 70%;
+   margin-left: 20px;
+   margin-right: 20px;
+   justify-content: center;
+}
+    
+.header h1{
+    font-size: large;
+    justify-content: center;
+}
+ .card-rounded{
+     display: flex;
+     justify-content:flex-end;
+     justify-content: center;
+     display: flex;
+     align-content: stretch;
+     margin-bottom: 5%;
+ }
+
+.col-md-7 .ml-md-auto{
+    text-align: right;
+    float: right;
+    justify-content: center;
+    
+}
+ .header, .card-rounded{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     align-content: stretch;
+ }
+
+.footer{
+    margin: 0;
+    padding: 70px;
+    box-sizing: border-box;
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: auto;
+    margin-left: 30%;
+
+}
+
+.map{
+    align-items: left;
+    justify-content: left;
+}
+
